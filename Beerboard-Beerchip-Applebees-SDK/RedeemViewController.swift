@@ -492,11 +492,6 @@ extension RedeemViewController:UITableViewDelegate,UITableViewDataSource{
                 redeemButton.setTitle("REDEEM", for: .normal)
                 redeemBtnAction(self)
             }
-            
-            
-            let cell = locationTableView.cellForRow(at: indexPath) as! LocationTableViewCell
-            cell.locationNameLbl.textColor = .white
-            cell.locationAddessLbl.textColor = .white
         }
     }
 }

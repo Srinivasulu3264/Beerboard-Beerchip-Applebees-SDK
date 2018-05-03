@@ -55,7 +55,7 @@ class RedeemBeerchipViewController: UIViewController,UITextFieldDelegate {
         self.scrollView.contentInset = contentInsets;
         self.scrollView.scrollIndicatorInsets = contentInsets;
         if self.view.frame.origin.y != 0{
-            self.view.frame.origin.y = 64
+            self.view.frame.origin.y = 120
         }
     }
     
