@@ -10,6 +10,18 @@
 		8955AAB9209AC69600C38FFD /* Beerboard_Beerchip_Applebees_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8955AAAF209AC69600C38FFD /* Beerboard_Beerchip_Applebees_SDK.framework */; };
 		8955AABE209AC69600C38FFD /* Beerboard_Beerchip_Applebees_SDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8955AABD209AC69600C38FFD /* Beerboard_Beerchip_Applebees_SDKTests.swift */; };
 		8955AAC0209AC69600C38FFD /* Beerboard_Beerchip_Applebees_SDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8955AAB2209AC69600C38FFD /* Beerboard_Beerchip_Applebees_SDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89FC8ACE209AC84B002A7AA9 /* CashOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC8AC2209AC847002A7AA9 /* CashOutViewController.swift */; };
+		89FC8ACF209AC84B002A7AA9 /* RedeemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC8AC3209AC848002A7AA9 /* RedeemViewController.swift */; };
+		89FC8AD0209AC84B002A7AA9 /* AppleBeesAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89FC8AC4209AC848002A7AA9 /* AppleBeesAssets.xcassets */; };
+		89FC8AD1209AC84B002A7AA9 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC8AC5209AC848002A7AA9 /* LocationTableViewCell.swift */; };
+		89FC8AD2209AC84B002A7AA9 /* BeerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC8AC6209AC848002A7AA9 /* BeerInfoViewController.swift */; };
+		89FC8AD3209AC84B002A7AA9 /* AppleBeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC8AC7209AC849002A7AA9 /* AppleBeeViewController.swift */; };
+		89FC8AD4209AC84B002A7AA9 /* BeerchipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC8AC8209AC849002A7AA9 /* BeerchipTableViewCell.swift */; };
+		89FC8AD5209AC84B002A7AA9 /* RedeemBeerchipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC8AC9209AC849002A7AA9 /* RedeemBeerchipViewController.swift */; };
+		89FC8AD6209AC84B002A7AA9 /* RedeemViewBeerchipTableTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC8ACA209AC849002A7AA9 /* RedeemViewBeerchipTableTitleTableViewCell.swift */; };
+		89FC8AD7209AC84B002A7AA9 /* AppleBeeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89FC8ACB209AC84A002A7AA9 /* AppleBeeStoryboard.storyboard */; };
+		89FC8AD8209AC84B002A7AA9 /* BeerChipTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC8ACC209AC84A002A7AA9 /* BeerChipTableViewController.swift */; };
+		89FC8AD9209AC84B002A7AA9 /* RedeemviewBeerchipTableSubTitlesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC8ACD209AC84B002A7AA9 /* RedeemviewBeerchipTableSubTitlesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +41,18 @@
 		8955AAB8209AC69600C38FFD /* Beerboard-Beerchip-Applebees-SDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beerboard-Beerchip-Applebees-SDKTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8955AABD209AC69600C38FFD /* Beerboard_Beerchip_Applebees_SDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beerboard_Beerchip_Applebees_SDKTests.swift; sourceTree = "<group>"; };
 		8955AABF209AC69600C38FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89FC8AC2209AC847002A7AA9 /* CashOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashOutViewController.swift; sourceTree = "<group>"; };
+		89FC8AC3209AC848002A7AA9 /* RedeemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedeemViewController.swift; sourceTree = "<group>"; };
+		89FC8AC4209AC848002A7AA9 /* AppleBeesAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppleBeesAssets.xcassets; sourceTree = "<group>"; };
+		89FC8AC5209AC848002A7AA9 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		89FC8AC6209AC848002A7AA9 /* BeerInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerInfoViewController.swift; sourceTree = "<group>"; };
+		89FC8AC7209AC849002A7AA9 /* AppleBeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleBeeViewController.swift; sourceTree = "<group>"; };
+		89FC8AC8209AC849002A7AA9 /* BeerchipTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerchipTableViewCell.swift; sourceTree = "<group>"; };
+		89FC8AC9209AC849002A7AA9 /* RedeemBeerchipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedeemBeerchipViewController.swift; sourceTree = "<group>"; };
+		89FC8ACA209AC849002A7AA9 /* RedeemViewBeerchipTableTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedeemViewBeerchipTableTitleTableViewCell.swift; sourceTree = "<group>"; };
+		89FC8ACB209AC84A002A7AA9 /* AppleBeeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AppleBeeStoryboard.storyboard; sourceTree = "<group>"; };
+		89FC8ACC209AC84A002A7AA9 /* BeerChipTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerChipTableViewController.swift; sourceTree = "<group>"; };
+		89FC8ACD209AC84B002A7AA9 /* RedeemviewBeerchipTableSubTitlesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedeemviewBeerchipTableSubTitlesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +96,18 @@
 			isa = PBXGroup;
 			children = (
 				8955AAB2209AC69600C38FFD /* Beerboard_Beerchip_Applebees_SDK.h */,
+				89FC8AC7209AC849002A7AA9 /* AppleBeeViewController.swift */,
+				89FC8AC3209AC848002A7AA9 /* RedeemViewController.swift */,
+				89FC8AC8209AC849002A7AA9 /* BeerchipTableViewCell.swift */,
+				89FC8ACC209AC84A002A7AA9 /* BeerChipTableViewController.swift */,
+				89FC8AC6209AC848002A7AA9 /* BeerInfoViewController.swift */,
+				89FC8AC2209AC847002A7AA9 /* CashOutViewController.swift */,
+				89FC8AC5209AC848002A7AA9 /* LocationTableViewCell.swift */,
+				89FC8AC9209AC849002A7AA9 /* RedeemBeerchipViewController.swift */,
+				89FC8ACD209AC84B002A7AA9 /* RedeemviewBeerchipTableSubTitlesTableViewCell.swift */,
+				89FC8ACA209AC849002A7AA9 /* RedeemViewBeerchipTableTitleTableViewCell.swift */,
+				89FC8ACB209AC84A002A7AA9 /* AppleBeeStoryboard.storyboard */,
+				89FC8AC4209AC848002A7AA9 /* AppleBeesAssets.xcassets */,
 				8955AAB3209AC69600C38FFD /* Info.plist */,
 			);
 			path = "Beerboard-Beerchip-Applebees-SDK";
@@ -148,6 +184,7 @@
 				TargetAttributes = {
 					8955AAAE209AC69600C38FFD = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					8955AAB7209AC69600C38FFD = {
 						CreatedOnToolsVersion = 9.3;
@@ -177,6 +214,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89FC8AD0209AC84B002A7AA9 /* AppleBeesAssets.xcassets in Resources */,
+				89FC8AD7209AC84B002A7AA9 /* AppleBeeStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +233,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89FC8AD8209AC84B002A7AA9 /* BeerChipTableViewController.swift in Sources */,
+				89FC8AD3209AC84B002A7AA9 /* AppleBeeViewController.swift in Sources */,
+				89FC8AD2209AC84B002A7AA9 /* BeerInfoViewController.swift in Sources */,
+				89FC8AD1209AC84B002A7AA9 /* LocationTableViewCell.swift in Sources */,
+				89FC8AD4209AC84B002A7AA9 /* BeerchipTableViewCell.swift in Sources */,
+				89FC8ACF209AC84B002A7AA9 /* RedeemViewController.swift in Sources */,
+				89FC8ACE209AC84B002A7AA9 /* CashOutViewController.swift in Sources */,
+				89FC8AD6209AC84B002A7AA9 /* RedeemViewBeerchipTableTitleTableViewCell.swift in Sources */,
+				89FC8AD5209AC84B002A7AA9 /* RedeemBeerchipViewController.swift in Sources */,
+				89FC8AD9209AC84B002A7AA9 /* RedeemviewBeerchipTableSubTitlesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +388,7 @@
 		8955AAC4209AC69600C38FFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -356,6 +406,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vmoksha.Beerboard-Beerchip-Applebees-SDK";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +415,7 @@
 		8955AAC5209AC69600C38FFD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +441,7 @@
 		8955AAC7209AC69600C38FFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DH337745N2;
 				INFOPLIST_FILE = "Beerboard-Beerchip-Applebees-SDKTests/Info.plist";
@@ -407,6 +460,7 @@
 		8955AAC8209AC69600C38FFD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DH337745N2;
 				INFOPLIST_FILE = "Beerboard-Beerchip-Applebees-SDKTests/Info.plist";
