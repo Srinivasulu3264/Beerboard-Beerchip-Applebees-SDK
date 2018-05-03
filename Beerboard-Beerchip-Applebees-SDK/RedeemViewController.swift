@@ -150,17 +150,13 @@ import UIKit
     }
     override public func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        
-        navigationBarLabel?.removeFromSuperview()
+            navigationBarLabel?.removeFromSuperview()
     }
     
     @objc func menuAction ()  {
-        
-        self.navigationController?.popViewController(animated: true)
-        
-        let notificationName = Notification.Name("NotificationIdentifier")
-        NotificationCenter.default.post(name: notificationName, object: nil)
-
+            self.navigationController?.popViewController(animated: true)
+//        let notificationName = Notification.Name("NotificationIdentifier")
+//        NotificationCenter.default.post(name: notificationName, object: nil)
     }
     
     
